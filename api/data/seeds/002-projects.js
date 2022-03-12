@@ -16,7 +16,8 @@ exports.seed = function (knex) {
           project_link: "https://a.humanrightsfirstasylum.dev/login",
           github_link:
             "https://github.com/Lambda-School-Labs/human-rights-first-asylum-fe-a",
-          project_photo: "",
+          project_photo:
+            "https://photos.google.com/photo/AF1QipMj7TDMPFke5KdHYOrLc528ycIg8qm-VJEIRTEq",
         },
         {
           id: 2,
@@ -29,6 +30,8 @@ exports.seed = function (knex) {
               node backend to heroku.`,
           project_link: "https://fitness-club.vercel.app/",
           github_link: "https://github.com/MattBokovitz1/FitnessClub",
+          project_photo:
+            "https://photos.google.com/photo/AF1QipP0M8umWUzldF9YgPNHz_7GG-gDiY9KsJbONLV0",
         },
         {
           id: 3,
@@ -39,6 +42,8 @@ exports.seed = function (knex) {
               viewing.`,
           project_link: "https://nasa-photo-of-the-day-chi-one.vercel.app/",
           github_link: "https://github.com/MattBokovitz1/nasa-photo-of-the-day",
+          project_photo:
+            "https://photos.google.com/photo/AF1QipMEVLtm8QzzmLIfppAZudAfD4K_iEDmuli-DrAA",
         },
         {
           id: 4,
@@ -49,6 +54,8 @@ exports.seed = function (knex) {
               login page.`,
           project_link: "https://water-my-plants-tau.vercel.app/",
           github_link: "https://github.com/Build-Wk-Water-My-Plants/front-end",
+          project_photo:
+            "https://photos.google.com/photo/AF1QipP3EEmeKxzTrfnIf_YXzY6CB3p_QPc6htzT9Na5",
         },
       ]);
     });
