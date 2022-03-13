@@ -9,7 +9,7 @@ exports.up = function (knex) {
     tbl.string("project_link").notNullable();
 
     tbl.string("github_link").notNullable();
-    tbl.string("project_photo");
+    tbl.string("project_photo").notNullable();
   });
 };
 

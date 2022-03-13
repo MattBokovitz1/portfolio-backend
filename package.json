@@ -4,7 +4,17 @@
   "description": "Backend for portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "up": "knex migrate:latest",
+    "down": "knex migrate:rollback",
+    "seed": "knex seed:run",
+    "migrateh": "heroku run knex migrate:latest -a YOUR_HEROKU_APP_NAME",
+    "rollbackh": "heroku run knex migrate:rollback -a YOUR_HEROKU_APP_NAME",
+    "databaseh": "heroku pg:psql -a YOUR_HEROKU_APP_NAME",
+    "seedh": "heroku run knex seed:run -a YOUR_HEROKU_APP_NAME",
+    "test": "cross-env NODE_ENV=testing jest --watchAll --verbose --runInBand",
+    "deploy": "git push heroku main"
   },
   "repository": {
     "type": "git",
