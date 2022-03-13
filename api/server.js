@@ -2,6 +2,7 @@ const express = require("express");
 const booksRouter = require("./books/books-router");
 const blogRouter = require("./blog/blog-router");
 const projectsRouter = require("./projects/projects-router");
+const potentialRouter = require("./potential/potential-router");
 
 const cors = require("cors");
 const helmet = require("helmet");
@@ -19,5 +20,6 @@ server.get("/", (req, res) => {
 server.use("/books", booksRouter);
 server.use("/projects", projectsRouter);
 server.use("/blogs", blogRouter);
+server.use("/potential", potentialRouter);
 
 module.exports = server;
