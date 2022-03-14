@@ -194,6 +194,14 @@ exports.seed = function (knex) {
           rating: "10",
           topic: "History",
         },
+        {
+          id: 26,
+          title: "A History Of Scotland",
+          author: "J.D. Mackie",
+          date: "2022",
+          rating: "9",
+          topic: "History",
+        },
       ]);
     });
 };
